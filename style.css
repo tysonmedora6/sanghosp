@@ -1,0 +1,123 @@
+/* CSS for Slide show */
+#slideshow {
+    margin: 8px auto;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  /*img{
+      width:220px;
+      height:220px;
+  }*/
+  
+  /* CSS for Form Controls */
+  /*Aniket*/
+  body
+  {
+    /*background-color: #FFFFFF;*/
+    background-color: #cccccc;
+    font-family: 'Palatino Linotype';
+    background-image: url("jumbo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100%;
+    background-size: cover;
+  }
+  
+  .wrapper {  
+      margin-top: 50px;
+      margin-bottom: 50px;
+      /*background-color:#212121;*/
+      }
+  
+  @include box-sizing(border-box);
+  
+  form {
+      border: 3px solid #f1f1f1;
+      width: auto;
+      height: auto;
+  }
+  
+  .form-signin {
+    max-width: 350px;
+    padding: 9px 25px 25px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 0px solid rgba(0,0,0,0.1);  
+  }
+  
+  .form-signin-heading{
+    margin-bottom: 20px;
+    text-align: center;
+    color:white;
+    
+    /* color:#7A0D0D; */
+  }
+  
+  input[type=text], input[type=password], select,option{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+  }
+  
+  button {
+      background-color: orangered;
+      color: black;
+      padding: 14px 20px 10px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      font-family:'Palatino Linotype';
+  }
+  
+  .imgcontainer {
+      text-align: center;
+      margin: 10px 0 8px 0;
+  }
+  
+  img.avatar {
+      width: 50%;
+      border-radius: 100%;
+      height: auto;
+  }
+  
+  .container {
+      padding: 3px 7px 3px 7px;
+  }
+  
+  span.psw {
+      float: right;
+      padding-top: 16px;
+  }
+   
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+      span.psw {
+         display: block;
+         float: none;
+      }
+  }

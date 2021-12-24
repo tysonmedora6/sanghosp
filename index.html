@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>paitient.cibsindia.com</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+<div class="wrapper site-min-height">
+    <form action="/Login/CheckAuthorisation" class="form-signin" method="post" noValidate="noValidate">        <h2 class="form-signin-heading"> Central Institute Of Behavioral Sciences </h2>
+            <div class="imgcontainer">
+                <img src="Logo.jpg" alt="CIBS" class="avatar">
+            </div>
+            <div class="container">
+    
+                <input data-val="true" data-val-regex="Invalid Username or Password." data-val-regex-pattern="^[a-zA-Z0-9]*$" data-val-required="Username is Required" id="username" maxlength="12" name="Username" placeholder="Enter User Name" required="required" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true" style="color:red;"></span>
+    
+                <input data-val="true" data-val-regex="Please Enter valid Patient Code." data-val-regex-pattern="^[a-zA-Z0-9]*$" data-val-required="Patient Code is Required" id="PatientRegCode" name="PatientRegCode" type="hidden" value="" />
+    
+                <input data-val="true" data-val-required="Password is Required" id="password" maxlength="10" name="Password" placeholder="Enter Your Password" required="required" type="password" /><br>
+                <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true" style="color:red;"></span>
+    
+    
+    
+                <button type="submit" name="login"> Login </button>
+                <br><br>
+    
+                
+    
+                <a href="registration.html" style="text-decoration:underline;color: White">Old Patient Registration</a>
+                <a href="/registration/ResetPassword" style="float:right;text-decoration:underline;color: White">Reset Password</a>
+                <a href="/NewRegistration" style="float:left;text-decoration:underline;color: White">New Patient Registration</a>
+    
+                <br><br>
+            </div>
+    </form>
+    </div>
+    
+</body>
+</html>
